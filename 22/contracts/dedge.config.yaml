@@ -1,0 +1,16 @@
+config:
+  framework: "hardhat" 
+  framework_version: "2.9.2" 
+  node_version: "20" 
+  package_manager: "yarn"
+
+environment:
+  DONT_RUN_REPORT_SUMMARY: "false"
+  WAFFLE_TEST: "false"
+  COINMARKETCAP_API_KEY: "9aacee3e-7c04-4978-8f93-63198c0fbfef"
+  MUMBAI_RPC_URL: "https://rpc-mumbai.maticvigil.com/v1"
+  PRIVATE_KEY: "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
+
+tasks:
+  install-dependencies:
+    - yarn install
